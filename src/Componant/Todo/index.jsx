@@ -72,7 +72,7 @@ const Todo = () => {
         <input
           className={style['form-button']}
           type='button'
-          value={editIndex !== null ? 'Save' : 'Submit'}
+          value={editIndex !== null ? 'Save' : 'Add New Task '}
           onClick={handelSubmit}
         />
       </form>
